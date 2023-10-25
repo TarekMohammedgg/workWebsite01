@@ -256,14 +256,48 @@ footer {
     padding: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
+    header {
+        padding: 0px 0px;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding-left: 10px;
+
+
+    }
+
+    /* .title{
+        font-size: 1.8em;
+    } */
+
+    section {
+        padding: 90px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }       
     .welcome-content {
         padding: 10px;
     }
 
     .project-card {
-        flex: 0 0 calc(10% - 20px);
-        /* Full width for cards on phones */
+        width: calc(30% - 20px);
+        /*margin: 5px;*/    
     }
 
     .project-cards {
