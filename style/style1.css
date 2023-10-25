@@ -48,10 +48,10 @@ body {
 }
 
 .project-card {
-    flex: 0 0 calc(30% - 30px); /* Increased card width */
+    flex: 0 0 calc(60% - 30px); /* Increased card width */
     background-color: #f0f0f0;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 60px  245px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
