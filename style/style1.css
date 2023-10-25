@@ -10,7 +10,7 @@ body {
     padding: 20px  0px  ;
    
     text-align: right;
-    color: #fff;
+    color: #f0f0f0;
    
 }
 
@@ -38,7 +38,7 @@ body {
 /* Projects Section */
 .projects {
    text-align: center;
-    background-color: #f5f5f5;
+    background-color: #f0f0f0;
     padding: 50px 0;
 }
 
@@ -171,7 +171,7 @@ footer {
 }
 @media (max-width: 768px) {
     .project-card {
-        flex: 0 0 calc(5% - 30px); /* Increased card width */
+        flex: 0.4; /* Increased card width */
       
     }
     .welcome-content {
