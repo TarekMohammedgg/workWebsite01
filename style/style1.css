@@ -50,7 +50,7 @@ body {
 }
 
 .project-card {
-    flex: 0 0 calc(10% - 30px); /* Increased card width */
+    flex: 0 0 calc(140% - 30px); /* Increased card width */
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     padding: 60px  245px;
@@ -170,7 +170,13 @@ footer {
     padding: 10px;
 }
 @media (max-width: 768px) {
-    .project-cards {
-        grid-template-columns: 1fr; /* Display one card per row on smaller screens */
+    .project-card {
+        flex: 0 0 calc(5% - 30px); /* Increased card width */
+      
+    }
+    .welcome-content {
+    
+        padding: 20px 0px ;
+       
     }
 }
