@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Welcome Section */
+.welcome {
+    position: relative ; 
+    
+   
+    text-align: right;
+    color: #fff;
+   
+}
+
+.welcome-content {
+    
+    background:url('../imgs/water-unsplash.jpg') no-repeat ;
+    background-size: cover;
+    padding: 20px;
+    height: 100vh ; 
+    font-size: x-large;
+    border-radius: 0px ; 
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Projects Section */
+.projects {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project-card {
+    flex: 0 0 calc(30% - 30px); /* Increased card width */
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-image {
+    height: 200px; /* Increased image height */
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    background-color: #009688;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Navigation */
+header {
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold ;
+}
+.more-projects-button {
+    display: block;
+    text-align: center;
+    color: #007F72;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.more-projects-button:hover{
+    transform: scale(1.05);
+}
+
+/* Welcome Section */
+/* ... (styles for the welcome section remain unchanged) ... */
+
+/* Projects Section */
+/* ... (styles for the projects section remain unchanged) ... */
+
+/* Contact Section */
+/* ... (styles for the contact section remain unchanged) ... */
+
+/* Footer */
+footer {
+    background-color: #009688; /* Change footer color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
