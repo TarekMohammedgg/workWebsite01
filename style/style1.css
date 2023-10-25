@@ -295,15 +295,7 @@ footer {
         padding: 10px;
     }
 
-    .project-card {
-        width: calc(30% - 20px);
-        /*margin: 5px;*/    
-    }
-
-    .project-cards {
-        justify-content: center;
-        /* Center-align the project cards on phones */
-    }
+    
 
     .welcome-content,
 
