@@ -50,7 +50,7 @@ body {
 }
 
 .project-card {
-    flex: 0 0 calc(40% - 30px); /* Increased card width */
+    flex: 0 0 calc(10% - 30px); /* Increased card width */
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     padding: 60px  245px;
