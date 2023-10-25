@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0; 
+    padding: 0; 
 }
 
 /* Welcome Section */
@@ -18,9 +18,8 @@ body {
     
     background:url('../imgs/water-unsplash.jpg') no-repeat ;
     background-size: cover;
-    padding: 20px 10px ;
-    height: 100vh ; 
-    
+    padding: 20px 0px ; 
+    height: 100vh; 
     font-size: x-large;
     border-radius: 0px ; 
     animation: fadeIn 2s;
